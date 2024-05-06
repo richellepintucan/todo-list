@@ -30,7 +30,7 @@ const createTodo = (itemData) => {
     // create delete button
     const btnDelete = document.createElement('button');
     btnDelete.classList.add('delete-btn');
-    btnDelete.innerHTML = '<i class="fas fa-trash"></i>';
+    btnDelete.innerHTML = '<i class="fa-regular fa-trash-can"></i>';
 
     // add event
     btnDelete.addEventListener('click', () => {
