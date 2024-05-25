@@ -25,8 +25,8 @@
     --clr-grey-7: hsl(211, 27%, 70%);
     --clr-grey-8: hsl(210, 31%, 80%);
     --clr-grey-9: hsl(212, 33%, 89%);
-    --clr-grey-10: #ffffff;
-    --clr-white: #62879d;
+    --clr-light-blue: #9ac1e3;
+    --clr-nude:  #e3bc9a;
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-red-light: hsl(360, 71%, 66%);
     --clr-green-dark: hsl(125, 67%, 44%);
@@ -52,7 +52,7 @@
 }
 body {
     font-family: var(--ff-secondary);
-    background: var(--clr-grey-10);
+    background: var(--clr-light-blue);
     color: var(--clr-grey-1);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -138,7 +138,7 @@ p {
     border-radius: var(--radius);
 }
 .btn:hover {
-    color: var(--clr-white);
+    color: var(--clr-light-blue);
     background: var(--clr-black);
 }
 
@@ -167,7 +167,7 @@ main {
 
 /* Grocery List */
 .section-center {
-    background: var(--clr-white);
+    background: var(--clr-nude);
     border-radius: var(--radius);
     box-shadow: var(--light-shadow);
     transition: var(--transition);
@@ -208,7 +208,7 @@ main {
 #todo-input {
     padding: 0.25rem;
     padding-left: 1rem;
-    background: var(--clr-grey-10);
+    background: #ffffff;
     border-top-left-radius: var(--radius);
     border-bottom-left-radius: var(--radius);
     border-color: transparent;
